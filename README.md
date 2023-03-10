@@ -1,2 +1,0 @@
-# wcare
-wcare app
