@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">Wcare</string>
     <string name="splashscreen_gif">WcareLOGO</string>
+    <string name="todo">TODO</string>
+    <string name="welcome">Welcome to Wcare Emergency App</string>
+    <string name="email">Email</string>
+    <string name="new_password">New Password</string>
+    <string name="continue1">Continue</string>
+    <string name="floatlogin">floatlogin</string>
+    <string name="or">Or</string>
+    <string name="Demo_login">Demo Login</string>
 </resources>
