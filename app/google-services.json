@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "323099677656",
+    "project_id": "wcare-fdc28",
+    "storage_bucket": "wcare-fdc28.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:323099677656:android:8f347896ad2e84d4fa98ad",
+        "android_client_info": {
+          "package_name": "com.wcareteam.wcare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "323099677656-qksad16ukdjuhvkq473dp9vrsm0apd52.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCleql4b2D7XgFkWlaCFZ94Bcp3FgTWEho"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "323099677656-qksad16ukdjuhvkq473dp9vrsm0apd52.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

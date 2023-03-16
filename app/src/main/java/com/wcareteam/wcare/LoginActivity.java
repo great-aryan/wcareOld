@@ -5,6 +5,7 @@ import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
@@ -33,7 +34,6 @@ public class LoginActivity extends AppCompatActivity {
             getSupportActionBar().hide();
         }
 
-
         fab_google = findViewById(R.id.fab_google);
 
         email = findViewById(R.id.email);
@@ -58,33 +58,6 @@ public class LoginActivity extends AppCompatActivity {
         fab_google.animate().translationY(0).alpha(1).setDuration(500).setStartDelay(300).start();
 
 
-        continue1.setOnClickListener(v -> {
-            if (email.getText().toString().equals("wcare") &&
-                    password.getText().toString().equals("wcare")) {
-                Intent i = new Intent(LoginActivity.this, HomeActivity.class);
-                startActivity(i);
-                finish();
-            }
-
-            else {
-
-                counter--;
-                continue1.setText(R.string.Demo_login);
-
-
-                if (counter == 0) {
-                    Intent i = new Intent(LoginActivity.this, HomeActivity.class);
-                    startActivity(i);
-                    finish();
-                }
-            }
-        });
-        fab_google.setOnClickListener(v -> {
-            Toast.makeText(getApplicationContext(), R.string.Demo_login, Toast.LENGTH_SHORT).show();
-            Intent i = new Intent(LoginActivity.this, HomeActivity.class);
-            startActivity(i);
-            finish();
-        });
 
     }
 }
